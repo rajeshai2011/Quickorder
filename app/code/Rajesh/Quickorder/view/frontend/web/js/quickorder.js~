@@ -1,0 +1,26 @@
+require([
+  'jquery',
+  'jquery/ui'
+], function($){
+
+  $(document ).ready(function() {
+    
+	$('.quick_find').keyup(function(event){
+            var search_text = $(this).val();
+            try {
+                    $.ajax({
+                        url : 'quickorder/search/product',
+                        dataType : 'json',
+                        data: { 'search_text' :  search_text  },
+                        type : 'post',
+                        success : function(data) {
+                           // $('.main-search-results').html(data.products);
+                        }
+                    });
+                } catch (e) {
+                }
+        });
+
+
+});
+}); 

@@ -1,0 +1,20 @@
+
+.column{
+    float: left;
+    width: 40%;margin-left:3%;
+    margin-bottom: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.quick_find{padding: 10px;border: #a8d4b1 1px solid;border-radius:4px;}
+.quality{max-width:50px;}
+.suggesstionbox{float:left;list-style:none;margin-top:-3px;padding:0;width:190px;position: absolute;}
+.suggesstionbox ul{list-style:none;}
+.suggesstionbox ul li{padding: 10px; background: #f0f0f0; border-bottom: #bbb9b9 1px solid; margin-top:0;margin-bottom:0;}
+.suggesstionbox ul li:hover{background:#ece3d2;cursor: pointer;}

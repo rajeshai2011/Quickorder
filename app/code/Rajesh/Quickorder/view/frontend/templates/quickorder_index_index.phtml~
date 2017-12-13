@@ -1,0 +1,57 @@
+ 
+ <div class="wrapper">
+
+<form class="form" action="<?php echo $block->getFormAction() ?>"  method="post">
+ <div class="row">
+  <div class="column">Name/SKU</div>
+  <div class="column">Quality</div>
+</div> 
+<div class="row">
+  <div class="column"><div class="suggesstionbox" id="suggesstionbox_1"><ul></ul></div>
+  <input type="text" name="product[]" class="quick_find" id="product_1" data-num="1" />
+  <input type="hidden" name="prod_id[]" id="prodid_1"  />
+  </div>
+  <div class="column"><input type="text" name="quality[]" class="quality" id="quality_1" /></div>
+</div> 
+<div class="row">
+  <div class="column"><div class="suggesstionbox" id="suggesstionbox_2"><ul></ul></div>
+  <input type="text" name="product[]" class="quick_find" id="product_2" data-num="2" />
+    <input type="hidden" name="prod_id[]" id="prodid_2"  />
+  </div>
+  <div class="column"><input type="text" name="quality[]" class="quality" id="quality_2" /></div>
+</div> 
+<div class="row">
+  <div class="column"><div class="suggesstionbox" id="suggesstionbox_3"><ul></ul></div>
+  <input type="text" name="product[]" class="quick_find" id="product_3" data-num="3" />
+   <input type="hidden" name="prod_id[]" id="prodid_3"  />
+  </div>
+  <div class="column"><input type="text" name="quality[]" class="quality" id="quality_3" />
+   <input type="hidden" name="prod_id[]" id="prodid_3"  />
+  </div>
+</div> 
+<div class="row">
+  <div class="column"><div class="suggesstionbox" id="suggesstionbox_4"><ul></ul></div>
+  <input type="text" name="product[]" class="quick_find" id="product_4" data-num="4" />
+   <input type="hidden" name="prod_id[]" id="prodid_4"  />
+  </div>
+  <div class="column"><input type="text" name="quality[]" class="quality" id="quality_4" /></div>
+</div> 
+<div class="row">
+  <div class="column"><div class="suggesstionbox" id="suggesstionbox_5"><ul></ul></div>
+  <input type="text" name="product[]" class="quick_find" id="product_5" data-num="5" />
+   <input type="hidden" name="prod_id[]" id="prodid_5"  />
+  </div>
+  <div class="column"><input type="text" name="quality[]" class="quality" id="quality_5" /></div>
+</div> 
+<div class="field_wrapper">
+</div> 
+<div class="row">
+  <div class="column"></div>
+  <div class="column"><a href="javascript:void(0);" class="add_button" title="Add field">Add more</a></div>
+</div> 
+<div class="row">
+  <div class="column"></div>
+  <div class="column"><input type="submit" name="addtocart" value="Add to cart" /></div>
+</div>
+</form> 
+</div>

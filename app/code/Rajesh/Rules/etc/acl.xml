@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+     <acl>
+        <resources>
+            <resource id="Rajesh_Rules::admin">
+                <resource id="Rajesh_Rules::catalogrules" title="Hello World" sortOrder="51">
+                    <resource id="Rajesh_Rules::post" title="Posts" sortOrder="10"/>
+                    <resource id="Rajesh_Rules::catalogrules_configuration" title="Configuration" sortOrder="99" />
+                </resource>
+        	 </resource>       
+        </resources>
+    </acl>
+</config>
